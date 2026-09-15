@@ -42,8 +42,8 @@ public:
     Peer GetPeer() const;
 
 private:
-    static constexpr size_t kMaxFailures = 5;
-    static constexpr size_t kMaxInflightBlocks = 1024;
+    static constexpr size_t kMaxFailures = 10;
+    static constexpr size_t kMaxInflightBlocks = 128;
 
     class PeerPiecesAvailability {
     public:

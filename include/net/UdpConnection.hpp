@@ -20,7 +20,7 @@ public:
     std::string Receive();
 
 private:
-    static constexpr std::chrono::seconds kTimeout = std::chrono::seconds(1);
+    static constexpr std::chrono::seconds kTimeout = std::chrono::seconds(2);
 
     int socket_fd = -1;
     struct sockaddr_in server_address;

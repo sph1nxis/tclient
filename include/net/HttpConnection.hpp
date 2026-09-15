@@ -21,7 +21,7 @@ public:
     ) const;
 
 private:
-    static constexpr std::chrono::seconds kTimeout = std::chrono::seconds(10);
+    static constexpr std::chrono::seconds kTimeout = std::chrono::seconds(5);
 
 private:
     ParsedUrl ParseUrl(std::string_view url) const;

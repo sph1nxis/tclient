@@ -33,7 +33,7 @@ private:
     static constexpr int kBufferSize = 1024 * 1024; // 1 MB
 
     static constexpr std::chrono::milliseconds kConnectTimeout =
-        std::chrono::milliseconds(2'000);
+        std::chrono::milliseconds(2'500);
     static constexpr std::chrono::milliseconds kReadTimeout =
         std::chrono::milliseconds(5'000);
 
