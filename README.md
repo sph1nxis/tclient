@@ -1,6 +1,7 @@
 # tclient
 
-A BitTorrent client written in C++20 that supports downloading **single-file torrents** using **HTTP and UDP trackers**.  
+A BitTorrent client written in C++20 that supports downloading **single-file torrents** using **HTTP and UDP trackers**.
+
 The project features a **multi-threaded architecture** and a self-written **text-based user interface (TUI)**.
 
 No external libraries are required — all networking is implemented using plain POSIX sockets.
